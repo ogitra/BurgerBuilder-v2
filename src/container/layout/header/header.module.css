@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.mainHeader__container {
+  background-color: var(--theRed);
+  display: flex;
+  justify-content: center;
+}
+
+.mainHeader__containerTitle {
+  color: var(--theYellow);
+  align-self: center;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  padding: 0 0.5rem;
+}
+
+.mainHeader__containerLogo {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--theRed);
+  border-radius: 60px;
+  color: var(--theYellow);
+}

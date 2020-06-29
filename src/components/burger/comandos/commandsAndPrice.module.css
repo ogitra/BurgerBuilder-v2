@@ -1,0 +1,23 @@
+.commands__container {
+  position: fixed;
+  bottom: 11vh;
+  width: 99%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.commands__label {
+  border: 2px solid var(--theRed);
+  border-radius: 8px 8px 0 0;
+  width: 98%;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.3rem;
+  background: rgb(128, 128, 128, 0.4);
+  border-color: rgb(128, 128, 128, 0.4);
+}
+
+.commands__labelActive {
+  background: var(--theRed);
+}

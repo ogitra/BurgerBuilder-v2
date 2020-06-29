@@ -1,0 +1,18 @@
+.button {
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: var(--theYellow);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.buttonBack {
+  background-color: var(--theRed);
+}
+
+.buttonForward {
+  background-color: green;
+}

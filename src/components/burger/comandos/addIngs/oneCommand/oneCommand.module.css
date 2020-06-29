@@ -1,0 +1,63 @@
+.oneCommand {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  height: min-content;
+  row-gap: 1rem;
+}
+
+.oneCommand svg {
+  grid-column: 1/3;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--theRed);
+}
+
+.oneCommand__name {
+  grid-column: 1/3;
+  align-self: baseline;
+  font-weight: bold;
+  color: var(--theRed);
+  margin: 0 0 0.5rem 0;
+}
+
+.oneCommand__inc,
+.oneCommand__dec {
+  background-color: var(--theRed);
+  color: var(--theYellow);
+  border: var(--theRed);
+  width: 37px;
+
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px #000000;
+  transition: transform 0.8s ease-out;
+}
+.oneCommand__inc:focus,
+.oneCommand__dec:focus {
+  outline: none;
+}
+
+.oneCommand__decDisabled {
+  background-color: #dddddd;
+  color: rgb(192, 191, 191);
+  text-shadow: none;
+}
+
+.oneCommand__inc {
+  margin: 0 1px 0 auto;
+}
+.oneCommand__dec {
+  margin: 0 auto 0 1px;
+}
+
+.oneCommand__inc:active {
+  transform: translateY(-0.5rem);
+}
+
+.commandQtd {
+  grid-column: 1/3;
+  margin: 0;
+  color: var(--theRed);
+  font-weight: bold;
+}

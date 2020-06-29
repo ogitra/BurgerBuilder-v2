@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.navBar__container {
+  background-color: rgb(152, 33, 33, 0.95);
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+}
+
+.navBar__container ul {
+  padding: 0.4rem 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.navBar__containerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+:global(.item_style) {
+  color: #e9aa17;
+  transition: color 0.1s cubic-bezier(0, 1.3, 0.95, 0.54);
+  height: 100%;
+  width: 100%;
+}
+.navBar__containerItemActive > :first-child {
+  color: #ffebbd;
+}
+
+.navBar__containerTitle {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #e9aa17;
+}
+
+@keyframes expands {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

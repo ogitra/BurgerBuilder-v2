@@ -1,0 +1,73 @@
+.burgerBuilder__container {
+  height: 50%;
+  width: 100%;
+}
+
+.burgerBuilder {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.burgerBuilder__breadTop {
+  margin: 2rem 0 0.3rem 0;
+  width: 75%;
+  height: 9%;
+  background: linear-gradient(
+    180deg,
+    rgba(172, 130, 61, 1) 51%,
+    rgba(195, 156, 91, 1) 70%,
+    rgba(242, 209, 154, 1) 100%
+  );
+  border-radius: 23px 23px 0 0;
+}
+
+.burgerBuilder__breadBottom {
+  width: 75%;
+  height: 10%;
+  background: rgb(172, 130, 61);
+  background: linear-gradient(1deg, rgba(172, 130, 61, 1) 51%, rgba(195, 156, 91, 1) 70%, rgba(242, 209, 154, 1) 100%);
+  border-radius: 0 0 23px 23px;
+  box-shadow: 2px 2px 10px;
+}
+
+.salada {
+  margin-bottom: 0.3rem;
+  width: 70%;
+  height: 2%;
+  background: linear-gradient(to right, #52c234, #1f5a0e);
+  box-shadow: 2px 2px 10px;
+  border-radius: 20px;
+}
+.carne {
+  margin-bottom: 0.3rem;
+  width: 80%;
+  height: 7%;
+  background: linear-gradient(180deg, rgba(153, 53, 27, 1) 0%, rgba(87, 31, 16, 1) 23%, rgba(87, 31, 16, 1) 100%);
+  box-shadow: 2px 2px 10px;
+  border-radius: 20px;
+}
+.queijo {
+  margin-bottom: 0.3rem;
+  width: 81%;
+  height: 2%;
+  background: rgb(255, 167, 0);
+  background: linear-gradient(19deg, rgba(255, 167, 0, 1) 23%, rgba(255, 180, 0, 1) 48%, rgba(255, 212, 31, 1) 82%);
+  box-shadow: 2px 2px 10px;
+  border-radius: 20px;
+}
+.bacon {
+  margin-bottom: 0.3rem;
+  width: 75%;
+  height: 3%;
+  background: linear-gradient(180deg, rgba(180, 31, 31, 1) 23%, rgba(87, 31, 16, 1) 100%);
+  box-shadow: 2px 2px 10px;
+  border-radius: 20px;
+}
+
+.hideArrowRigth {
+  display: none;
+}

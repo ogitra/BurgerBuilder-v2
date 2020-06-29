@@ -1,0 +1,64 @@
+.orderCard__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border: 1px solid #ccc;
+  align-items: center;
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.orderCard__container p {
+  margin: 0.5rem 0;
+}
+
+.orderCard__orderNumber {
+  grid-column: 3/4;
+  justify-self: end;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--theRed);
+  color: var(--theYellow);
+  font-size: 1.5rem;
+  margin: 0.5rem 0.5rem 0 0;
+}
+
+.orderCard__clientName {
+  grid-row: 1;
+  grid-column: 1/3;
+  margin: 0.5rem 0;
+  justify-self: center;
+  color: var(--theRed);
+  font-weight: bold;
+}
+
+.orderCard__address {
+  grid-column: 1/4;
+}
+
+.orderCard__ings {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.orderCard__title {
+  color: var(--theRed);
+  font-weight: bold;
+}
+
+.orderCard__priceContainer {
+  text-align: center;
+  grid-column: 3;
+  align-self: self-start;
+}
+
+.orderCard__priceContainer p {
+  margin: 0;
+}
+
+.orderCard__price {
+  font-size: 2rem;
+}

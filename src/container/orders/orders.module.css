@@ -1,0 +1,14 @@
+.orders__container {
+  margin: 0 1rem;
+  overflow: auto;
+}
+
+.orders__container h1 {
+  text-align: center;
+  color: var(--theRed);
+  font-family: 'Roboto';
+}
+
+.orders__container ul {
+  padding: 0;
+}
